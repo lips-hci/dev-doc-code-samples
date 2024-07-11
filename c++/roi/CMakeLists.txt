@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.3)
 
-project(environment_setup CXX)
+project(roi CXX)
 
 include_directories($ENV{OPENNI2_INCLUDE})
 include_directories($ENV{OPENNI2_INCLUDE64})
 link_directories($ENV{OPENNI2_REDIST})
 link_directories($ENV{OPENNI2_LIB64})
 
-add_executable(${PROJECT_NAME} environment_setup.cpp)
+add_executable(${PROJECT_NAME} roi.cpp)
 
 if(MSVC)
     include(../opencv_path.cmake)
