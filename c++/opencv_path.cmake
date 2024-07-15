@@ -1,0 +1,1 @@
+set(OpenCV_DIR "C:/bin/flutter_vision_win_deps/opencv")
