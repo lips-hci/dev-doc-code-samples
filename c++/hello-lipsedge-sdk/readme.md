@@ -72,4 +72,4 @@ openni::OpenNI::shutdown();
 
 ## Full code
 
-[hello-lipsedge-sdk.cpp]()
+[hello-lipsedge-sdk.cpp](https://github.com/HedgeHao/LIPSedgeSDK_Tutorial/blob/master/c%2B%2B/hello-lipsedge-sdk/hello-lipsedge-sdk.cpp)
