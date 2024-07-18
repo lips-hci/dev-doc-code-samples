@@ -12,6 +12,10 @@ The depth sensor and the RGB sensor are positioned differently on the camera, re
 - Registration enabled
   ![](../../.asset/align_enable.png)
 
+## Prerequisite
+
+- [OpenCV Viewer](../opencv_viewer/)
+
 ## Tutorial
 
 Modify from [opencv_viewer](../opencv_viewer/README.md). After getting color and depth frame, we use opencv `addWeighted` function to overlap these two images.
@@ -44,4 +48,4 @@ if (input == 'a')
 
 ## Full code
 
-[align-depth-color.cpp](./align-depth-color.cpp)
+[align-depth-color.cpp](https://github.com/HedgeHao/LIPSedgeSDK_Tutorial/blob/master/c%2B%2B/align-depth-color/align-depth-color.cpp)

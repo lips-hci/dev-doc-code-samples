@@ -8,6 +8,10 @@ Since depth camera can measure the distance for each pixel. We can easily build 
 
 ![](../../.asset/range-filter.png)
 
+## Prerequisite
+
+- [OpenCV Viewer](../opencv_viewer/)
+
 ## Tutorial
 
 Modify from [opencv_viewer](../opencv_viewer/README.md). After getting color and depth frame, we use opencv `threshold` function to filter out distance less than `threasholdValueDown` and greater than `thresholdValueUp`.
@@ -44,4 +48,4 @@ cv::imshow("Threshold", thres);
 
 ## Full code
 
-[range-filter](./range-filter.cpp)
+[range-filter](https://github.com/HedgeHao/LIPSedgeSDK_Tutorial/blob/master/c%2B%2B/range-filter/range-filter.cpp)
