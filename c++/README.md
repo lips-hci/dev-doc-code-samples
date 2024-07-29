@@ -9,6 +9,9 @@
 | [depth_data](./depth_data/)                 | Get the depth value by pixel coordinate (x,y)              |
 | [align-depth-color](./align-depth-color/)   | Align depth and RGB frame to the same coordinate           |
 | [range-filter](./range-filter/)             | Get the data only in desired distance only                 |
+| [remove-background](./remove-background.md)   | Use range filter to filter out the background           |
+| [record](./record.md)                         | Record camera streams for NiViewer playback             |
+| [pointcloud](./pointcloud.md)                 | Compute pointcloud data and display                     |
 
 # Prerequisite
 
