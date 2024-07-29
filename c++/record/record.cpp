@@ -81,6 +81,7 @@ int main()
             {
                 recorder.start();
                 std::cout << "Start recording" << std::endl;
+                isRecording = true;
             }
         }
         else if (input == 's')
