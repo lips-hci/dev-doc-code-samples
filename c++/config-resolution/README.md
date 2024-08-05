@@ -89,4 +89,4 @@ VideoMode irMode = ir.getVideoMode();
 
 ## Full code
 
-[change-resolution.cpp](https://github.com/HedgeHao/LIPSedgeSDK_Tutorial/blob/master/c%2B%2B/change-resolution/change-resolution.cpp)
+[config-resolution.cpp](https://github.com/HedgeHao/LIPSedgeSDK_Tutorial/blob/master/c%2B%2B/config-resolution/config-resolution.cpp)
