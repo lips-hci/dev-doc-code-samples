@@ -5,14 +5,15 @@ int main()
 {
 	if (openni::OpenNI::initialize() != openni::STATUS_OK)
 	{
-		std::cout <<  "Initialize Failed:" << openni::OpenNI::getExtendedError() << std::endl;
+		std::cout << "Initialize Failed:" << openni::OpenNI::getExtendedError() << std::endl;
 		return -1;
 	}
 
 	openni::Array<openni::DeviceInfo> deviceList;
 	openni::OpenNI::enumerateDevices(&deviceList);
 
-	if(deviceList.getSize() == 0){
+	if (deviceList.getSize() == 0)
+	{
 		std::cout << "Cannot find any camera\n";
 		return -2;
 	}
@@ -20,7 +21,6 @@ int main()
 	for (int i = 0; i < deviceList.getSize(); i++)
 	{
 		openni::DeviceInfo info = deviceList[i];
-		std::cout << "Name:" << info.getName() << std::endl;
 		std::cout << "Name:" << info.getName() << std::endl;
 		std::cout << "Uri:" << info.getUri() << std::endl;
 		std::cout << "USB Product ID:" << info.getUsbProductId() << std::endl;
