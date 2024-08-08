@@ -8,6 +8,10 @@ Get the parameters of the camera intrinsic and distortion values.
 
 ![](../../.asset/camera-parameters.png)
 
+## Prerequisite
+
+- [Hello LIPSEdge SDK](../hello-lipsedge-sdk/)
+
 ## Tutorial
 
 We first include `LIPSNICustomProperty.h` which is inside our LIPSEdge SDK. This header file provide multiple handy functions and data structs like `RadialDistortionCoeffs`, `radialDistCoeffs` etc.
