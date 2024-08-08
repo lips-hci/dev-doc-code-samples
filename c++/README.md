@@ -13,6 +13,7 @@
 | [record](./record/)                         | Record camera streams for NiViewer playback             |
 | [pointcloud](./pointcloud/)                 | Compute pointcloud data and display                     |
 | [config-resolution](./config-resolution/)   | Change resolution, FPS and pixel format                      |
+| [camera-parameter](./camera-parameter.md)     | Get camera parameters                            |
 
 # Prerequisite
 
